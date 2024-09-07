@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="eni-page-background"
+      lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">>
+<head>
+    <meta charset="UTF-8">
+
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="/vendor/uikit/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="/vendor/uikit/js/uikit.min.js"></script>
+  <script src="/vendor/uikit/js/uikit-icons.min.js"></script>
+
+    <title>Title</title>
+
+</head>
+
+<body>
+<nav class="uk-navbar">
+  <div class="uk-navbar-left">
+    <ul class="uk-navbar-nav">
+
+      <li class="uk-active"><a href="/accueil">Accueil</a></li>
+      <li class="uk-parent"><a href="/cv">CV</a></li>
+      <li class="uk-parent"><a href="/lettreMotivation">Lettre de motivation</a></li>
+
+    </ul>
+
+  </div>
+</nav>
+<br>
+<!--Va être remplacé dans les pages qu'il lé'hérite-->
+<div layout:fragment="content">
+</div>
+
+</body>
+</html>
