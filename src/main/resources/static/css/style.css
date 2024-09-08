@@ -1,0 +1,45 @@
+.page-background{
+    background-image: url("../img/background3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    padding: 2rem;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    border-radius: 1em;
+    background: rgba(247,196,166,0.8);
+    border-style: solid;
+    border-color: #431910;
+    justify-content: center;
+    font-family: cursive;
+    list-style: none;
+
+}
+.liste-navbar{
+    list-style: none;
+    text-decoration: none  ;
+}
+
+.titre{
+    font-family: cursive;
+    text-align: center;
+    color: #431910;
+}
+
+.text{
+    font-family: cursive;
+    text-align: center;
+    color: #431910;
+}
+
+.text-lettre {
+    font-family: cursive;
+    color: #431910;
+}
+
+.text-cv {
+    font-family: cursive;
+    color: #431910;
+}

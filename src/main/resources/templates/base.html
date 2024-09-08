@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html class="eni-page-background"
+<html class="page-background"
       lang="en"
       xmlns:th="http://www.thymeleaf.org"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">>
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+>
 <head>
     <meta charset="UTF-8">
 
@@ -13,18 +14,22 @@
   <script src="/vendor/uikit/js/uikit.min.js"></script>
   <script src="/vendor/uikit/js/uikit-icons.min.js"></script>
 
+  <!-- My theme -->
+  <link rel="stylesheet" href="/css/style.css"/>
+
     <title>Title</title>
 
 </head>
 
-<body>
-<nav class="uk-navbar">
+<body >
+
+<nav class="uk-navbar navbar">
   <div class="uk-navbar-left">
     <ul class="uk-navbar-nav">
 
-      <li class="uk-active"><a href="/accueil">Accueil</a></li>
-      <li class="uk-parent"><a href="/cv">CV</a></li>
-      <li class="uk-parent"><a href="/lettreMotivation">Lettre de motivation</a></li>
+      <li class="uk-active"><a th:href="@{/accueil}">Accueil</a></li>
+      <li class="uk-active"><a th:href="@{/cv}">CV</a></li>
+      <li class="uk-active"><a th:href="@{/lettre-motivation}">Lettre de motivation</a></li>
 
     </ul>
 
